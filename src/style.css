@@ -1,0 +1,36 @@
+h1, p {
+  font-family: Lato;
+}
+
+
+body {
+  background: #232324;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size : cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+button:hover {
+  color: #2e2584;
+  background: #5921f3;
+  box-shadow: 0 0 10px #5921f3, 0 0 40px #5921f3, 0 0 80px #5921f3;
+  border: none;
+  font-family: consolas;
+  height: 37px;
+  width: 100px;
+  font-weight: bolder;
+}
+button {
+  border: none;
+  font-family: consolas;
+  height: 37px;
+  width: 100px;
+  color: #5921f3;
+  background-color: transparent;
+  background: rgba(160, 125, 224, 0.233);
+  border-radius: 4px;
+}
